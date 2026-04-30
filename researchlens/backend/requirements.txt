@@ -1,0 +1,25 @@
+# Python 3.13 compatible versions (pinned to what's installed)
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pdfminer.six>=20221105
+pymupdf
+spacy>=3.8.0
+nltk>=3.8.1
+sentence-transformers>=2.7.0
+bertopic>=0.16.0
+networkx>=3.3
+umap-learn>=0.5.6
+scikit-learn>=1.4.2
+numpy>=1.26.4
+pandas>=2.2.2
+sqlalchemy>=2.0.29
+aiosqlite>=0.20.0
+python-multipart>=0.0.9
+hdbscan>=0.8.33
+pydantic-settings>=2.2.1
+python-dotenv>=1.0.1
+aiofiles>=23.2.1
+reportlab>=4.1.0
+peft>=0.10.0
+accelerate>=0.21.0
+# After installing, run: python -m spacy download en_core_web_sm
